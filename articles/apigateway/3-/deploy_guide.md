@@ -27,16 +27,15 @@ Elasticsearch版本要求2.4.1，能够无用户名密码连接。
 这里需要建两个库，一个用于网关控制台应用（private_gateway_create.sql、private_gateway_init.sql），一个用于日志管理（agent_create.sql）。
 
 ## 操作步骤
-1、解压apilink-server-private压缩包到 /opt目录下：  
+1、解压apilink-server-private压缩包到 /opt目录：  
 ![安装包位置](images/deploy3.1.png)  
 
 在workdir目录下所部署工程如下图：  
 ![web应用列表](images/deploy3.2.png) 
 
-2、进入/opt/apilink-server-private/tools目录下，运行openresty-install.sh安装网关中间件。  
+2、进入/opt/apilink-server-private/tools目录，运行openresty-install.sh安装网关中间件。  
 
-3、进入/opt/apilink-server-private目录下，
-执行批处理文件sysconfig.sh（执行命令：./sysconfig.sh）进行环境配置：  
+3、进入/opt/apilink-server-private目录，执行批处理文件sysconfig.sh（执行命令：./sysconfig.sh）进行环境配置：  
 > **基础配置**  
 访问协议：API接口服务地址的访问协议。  
 API接口服务地址：网关对外API接口的访问地址，也是网关控制台的访问地址。  
