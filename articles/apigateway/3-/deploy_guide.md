@@ -37,31 +37,31 @@ Elasticsearch版本要求2.4.1，能够无用户名密码连接。
 
 3、进入/opt/apilink-server-private目录下，
 执行批处理文件sysconfig.sh（执行命令：./sysconfig.sh）进行环境配置：  
-*基础配置*  
+> **基础配置**  
 访问协议：API接口服务地址的访问协议。  
 API接口服务地址：网关对外API接口的访问地址，也是网关控制台的访问地址。  
 网关地址：nginx服务的地址，单机配置默认即可，集群配置可用多个地址加分号 `;` 隔开。  
 
 ![基础配置](images/deploy3.3.png)  
 <br/>
-> 缓存服务  
+> **缓存服务**  
 
 ![缓存服务](images/deploy3.4.png)  
 <br/>
-> 邮件服务  
+> **邮件服务**  
 用于接口监控预警功能。  
 
 ![邮件服务](images/deploy3.5.png)  
 <br/>
-> 友户通  
+> **友户通**  
 
 ![友户通](images/deploy3.6.png)  
 <br/>
-> 开发者中心  
+> **开发者中心**  
 
 ![开发者中心](images/deploy3.7.png)  
 <br/>
-> 日志服务  
+> **日志服务**  
 
 ![日志服务](images/deploy3.8.png)  
 
