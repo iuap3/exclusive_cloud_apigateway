@@ -8,7 +8,7 @@
   * [版本说明](articles/apigateway/2-/)
      * [版本说明](articles/apigateway/2-/version.md)
   * [安装与配置](articles/apigateway/3-/)---东征
-  
+     * [部署手册](articles/apigateway/3-/deploy_guide.md)
   * [快速入门](articles/apigateway/4-/)
      * [快速入门--开放API](articles/apigateway/4-/openAPI.md)
      * [快速入门--调用API](articles/apigateway/4-/invokeAPI.md)
