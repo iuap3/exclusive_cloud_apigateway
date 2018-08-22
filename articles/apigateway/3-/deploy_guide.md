@@ -18,8 +18,8 @@ service xrdp start
 ```  
 
 2、APILink网关服务需要mysql、redis及elasticsearch环境，请自行安装。  
-Redis版本要求3.0.x ，并能够无密码连接(建议通过bind_ip和防火墙进行安全控制)。  
 MySQL版本要求5.6.x，需要设置大小写不敏感（lower_case_table_names = 1）。  
+Redis版本要求3.0.x ，并能够无密码连接(建议通过bind_ip和防火墙进行安全控制)。  
 Elasticsearch版本要求2.4.1，能够无用户名密码连接。   
 
 3、MySQL脚本位于SQL目录中  
