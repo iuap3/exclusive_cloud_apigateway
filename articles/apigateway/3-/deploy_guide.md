@@ -30,7 +30,7 @@ Elasticsearch版本要求2.4.1，能够无用户名密码连接。
 1、解压apilink-server-private压缩包到 /opt目录下：  
 ![安装包位置](images/deploy3.1.png)  
 
-在workdir目录下部署所需工程如下图：  
+在workdir目录下所部署工程如下图：  
 ![web应用列表](images/deploy3.2.png) 
 
 2、进入/opt/apilink-server-private/tools目录下，运行openresty-install.sh安装网关中间件。  
