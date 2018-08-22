@@ -86,5 +86,5 @@ host即配置工具中填写的网关地址（下图红框），密码为apilink
 ![网关地址示意图](images/deploy4.2.png)  
 
 2、Redis服务如果宕机，或者由于其他因素需要停机，再次启动时，可用网关控制台提供的redis数据重载进行恢复（若已有redis持久化或其他内存数据恢复机制可忽略）。  
-Redis重载页面如下图，密码为apilink@2017
+Redis重载页面如下图，密码为apilink@2017  
 ![Redis内存数据恢复](images/deploy4.3.png) 
