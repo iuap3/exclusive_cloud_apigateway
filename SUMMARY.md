@@ -1,6 +1,5 @@
 # Summary
 
-* [专属云文档](README.md)
 * [API网关](articles/apigateway/)
   * [产品介绍](articles/apigateway/1-/)
      * [产品概述](articles/apigateway/1-/Introduction.md)
