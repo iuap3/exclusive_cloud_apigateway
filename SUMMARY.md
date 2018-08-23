@@ -17,6 +17,7 @@
     * [使用者门户](articles/apigateway/5-/user_gateway.md)
     * [API 开发者](articles/apigateway/5-/developer_gateway.md)
     * [管理员门户](articles/apigateway/5-/admin_gateway.md)
+    * [RPC 服务支持参数类型说明](articles/apigateway/5-/rpc_params_detail.md)
  
 
 
