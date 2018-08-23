@@ -13,19 +13,19 @@ API使用是用户使用API的整体流程。整个流程是从API的申请到AP
 
 进入API网关首页后，选择`【API中心】`页签。API中心为API开发者将自己的服务部署在API网关提供了平台，同时为使用者提供了丰富的API服务供使用。
  
-![API中心](images/img2.1.1-1.png)
+![API中心](/articles/apigateway/5-/images/img2.1.1-1.png)
 
 * 立即使用
 
 选择要使用的API，点击`【立即使用】`后，再点击`【申请】`。
  
-![使用API](images/img2.1.1-2.png)
+![使用API](/articles/apigateway/5-/images/img2.1.1-2.png)
 
 * API列表
 
 进入使用者门户，上一步申请的API会在`“我的应用”`页签显示，此时API申请完成。
 
-![API列表页面](images/img2.1.1-3.png)
+![API列表页面](/articles/apigateway/5-/images/img2.1.1-3.png)
 
 ### API测试
 
@@ -35,13 +35,13 @@ API网关为用户提供了API测试的功能，供用户测试API是否可以�
 
 在“我的应用”页签，选择要监控的API点击【测试】按钮。这里需要注意的是，如果申请的服务开通类型是手动时，申请服务后需要API开发者审批后才可进行调用和测试操作。输入正确参数，点击【测试】按钮。其中API网关提供了两种安全可靠的认证方式，分别为apicode和appkey进行用户认证，详情请见授权模式。用户可根据需要进行不同方式的API调用。
 
-![API测试](images/img2.1.2-1.png)
+![API测试](/articles/apigateway/5-/images/img2.1.2-1.png)
 
 * 测试结果
 
 请求结果中包含了请求头、请求体和响应体，可以根据返回数据判断API是否调通。若为调通，可根据响应体返回内容判断调用失败的原因。
 
-![测试结果](images/img2.1.2-2.png)
+![测试结果](/articles/apigateway/5-/images/img2.1.2-2.png)
 
 ## 授权模式
 
@@ -59,7 +59,7 @@ apicode授权方式是指，使用者进行API申请完成后，API网关会为�
 
 在应用授权页签，选择【添加应用】。
 
-![添加应用](images/img2.2.2-1.png)
+![添加应用](/articles/apigateway/5-/images/img2.2.2-1.png)
 
 ## 运营数据
 
@@ -73,25 +73,25 @@ API网关除了提供API使用和调用的权限控制外，还提供了基本�
 
 使用者可以选择指定API，查询当天或按月查询该API调用次数。
 
-![调用次数](images/img2.3.1-1.png)
+![调用次数](/articles/apigateway/5-/images/img2.3.1-1.png)
 
 * 调用字节数
 
 使用者可以选择指定API，查询当天或按月查询该API调用字节数。
 
-![调用字节数](images/img2.3.1-2.png)
+![调用字节数](/articles/apigateway/5-/images/img2.3.1-2.png)
 
 * 调用时长
 
 使用者可以选择指定API，查询当天或按月查询该API调用时长。
 
-![调用时长](images/img2.3.1-3.png)
+![调用时长](/articles/apigateway/5-/images/img2.3.1-3.png)
 
 ### 日志查询
 
 在日志查询页签，选择选择服务和API，可以查询到调用日志信息。
 
-![日志查询](images/img2.3.2-1.png)
+![日志查询](/articles/apigateway/5-/images/img2.3.2-1.png)
 
 * 查询条件
 
@@ -114,4 +114,4 @@ API网关提供API的SDK文档，实现方便、便捷的进行开发。
 
 在SDK文档页签，选择指定API的SDK文档进行下载。
 
-![SDK文档](images/img2.3.4-1.png)
+![SDK文档](/articles/apigateway/5-/images/img2.3.4-1.png)
