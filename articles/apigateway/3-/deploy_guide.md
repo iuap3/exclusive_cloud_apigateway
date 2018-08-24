@@ -27,7 +27,7 @@ Elasticsearch版本要求2.4.1，能够无用户名密码连接。
 这里需要建两个库，一个用于网关控制台应用（private_gateway_create.sql、private_gateway_init.sql），一个用于日志管理（agent_create.sql）。
 
 ## 操作步骤
-1、解压apilink-server-private压缩包到 /opt目录：  
+1、解压apilink-server-private.tar.gz到 /opt目录：  
 ![安装包位置](/articles/apigateway/3-/images/deploy3.1.png)  
 
 在workdir目录下所部署工程如下图：  
