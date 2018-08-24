@@ -14,11 +14,10 @@ API网关的内置定时任务有五种。
 
 | 定时任务 | 说明 |
 |:-:|:-|
-|ExpireTimeWarningQuartz|服务到期预警（服务到期）|
 |MonitorDealErrorQuartz|调用错误日志（1分钟执行一次）|
 |MonitorDetailQuartz|调用日志详情（30秒执行一次） 注：一天创建一张表|
 |MonitorQuartz|调用日志详情（5分钟执行一次）注：一月创建一张表|
-|synchRedis|同步使用次数（1分钟执行一次）注：redis同步到数据库中|
+|RedisSynchQuartz|同步使用次数（1分钟执行一次）注：redis同步到数据库中|
 
 ![定时任务列表](/articles/apigateway/5-/images/img4.1.1-1.png)
 
